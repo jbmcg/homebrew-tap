@@ -1,4 +1,4 @@
-require File.expand_path("../../Abstract/abstract-php-phar", __FILE__)
+require File.expand_path("Abstract/abstract-php-phar", __FILE__)
 
 class DropboxDl < AbstractPhpPhar
   init
