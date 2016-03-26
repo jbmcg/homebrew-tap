@@ -1,7 +1,4 @@
-require File.expand_path("Abstract/abstract-php-phar", __FILE__)
-
-class DropboxDl < AbstractPhpPhar
-  init
+class DropboxDl < Formula
   desc "CLI tool to recursively download public Dropbox folders"
   homepage "https://github.com/jbmcg/dropbox-dl"
   url "https://github.com/jbmcg/dropbox-dl/archive/0.0.1.tar.gz"
